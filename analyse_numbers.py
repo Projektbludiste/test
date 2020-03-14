@@ -1,4 +1,9 @@
-def is_whole_number(a):
-    a = a % 1 == 0
-    
+def is_whole_number(number):
+    if number % 2 == 0:
+        print("true")
+    else:
+        print("false")
+
+
+
 is_whole_number(2)
